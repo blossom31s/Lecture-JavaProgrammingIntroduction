@@ -78,7 +78,7 @@ public class MainClass {
 		objs[1] = new SecondChildClass();
 
 		for(int i=0 ; i<objs.length ; ++i) {
-			// objs[i].makeJJajang(); // 하위 클래스의 메서드를 이용하기 위해서는 상위 클래스의 객체에서 이용할 수 없음
+			// objs[i].makeJJajang(); // 하위 클래스의 메서드를 상위 클래스의 객체에서 이용할 수 없음
 
 			// 상위 클래스를 하위 클래스로 형변환 한 후 하위 클래스의 메서드를 이용함
 			if(i == 0) {
