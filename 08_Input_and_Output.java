@@ -1,9 +1,3 @@
-/*
-
-
-
-*/
-
 package inflearn;
 
 import java.io.InputStream;
